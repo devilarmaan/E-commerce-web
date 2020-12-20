@@ -8,12 +8,13 @@
 
 body {
     margin-top: 100px;
-    background-color: #222;
+    background-color: azure !important;
 }
 
 @media(min-width:768px) {
     body {
         margin-top: 50px;
+        background-color: azure !important;
     }
 }
 
@@ -122,7 +123,7 @@ ul.alert-dropdown {
         border: none;
         border-radius: 0;
         overflow-y: auto;
-        background-color: #222;
+        background-color: azure !important;
     }
 
     .side-nav>li>a {
@@ -132,7 +133,7 @@ ul.alert-dropdown {
     .side-nav li a:hover,
     .side-nav li a:focus {
         outline: none;
-        background-color: #000 !important;
+        background-color: midnightblue !important;
     }
 }
 
@@ -221,4 +222,11 @@ ul.alert-dropdown {
 
 .panel-yellow a:hover {
     color: #df8a13;
+}
+
+
+/** Customizing Bootstrap **/
+.navbar-inverse {
+    background-color: midnightblue !important;
+    border-color: azure !important;
 }
